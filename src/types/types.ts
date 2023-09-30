@@ -21,3 +21,8 @@ export type Tag = {
   label: string;
 };
 
+export type SimplifiedNote = {
+  tags: Tag[];
+  title: string;
+  id: string;
+}
